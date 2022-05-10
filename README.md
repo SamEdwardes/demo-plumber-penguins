@@ -32,7 +32,7 @@ RStudio Connect will then automatically redeploy the app.
 You can also deploy the app using the `rsconnect` api:
 
 ```r
-rsconnect::deployApp(
+rsconnect::deployAPI(
   api = "app",
   appFiles = c("plumber.R"),
   appTitle = "Shiny Penguins Plumber"
